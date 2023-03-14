@@ -1,7 +1,8 @@
 // 11 Maret 2023
-// Willi Sianturi
+// Willi Chrisdeardo Sianturi
 // Prajudi William Chrisdeardo
-// Golang Tutorial for Beginners | Full Go Course
+// Tutorial Golang Untuk Pemula
+// Tutorial dari channel TechWorld with Nana
 
 package main
 
@@ -52,8 +53,9 @@ func main() {
 		fmt.Printf("The first names of bookings are: %v\n", firstNames)
 
 		if remainingTickets == 0 {
-			// End program
-			fmt.Println("Our conference is booked out. Come back next year.")
+			// end program
+			fmt.Println("Our conference is booket out. Come back next year.")
+			break
 		}
 	}
 }
